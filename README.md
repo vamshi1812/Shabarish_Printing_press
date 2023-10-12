@@ -1,8 +1,11 @@
 # Shabarish_Printing_press
 
-install node_modules and include into project\n
-npm install {all_mentioned_dependencies}\n
-terminal command :nodemon valid.js\n
+install node_modules and include into project     
+
+npm install {all_mentioned_dependencies}  
+
+terminal command :nodemon valid.js  
+
 server : localhost:3000
 
 ![Screenshot (248)](https://github.com/vamshi1812/Shabarish_Printing_press/assets/115687019/2ba5ccc2-462a-4c2e-ae89-f2d87e32371e)
