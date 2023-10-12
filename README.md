@@ -2,9 +2,11 @@
 
 install node_modules and include into project     
 
-npm install {all_mentioned_dependencies}  
 
-terminal command :nodemon valid.js  
+
+terminal command : 
+npm install {all_mentioned_dependencies}      
+nodemon valid.js  
 
 server : localhost:3000
 
