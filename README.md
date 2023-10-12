@@ -4,7 +4,7 @@ install node_modules and include into project
 
 
 
-terminal command : 
+terminal command :     
 npm install {all_mentioned_dependencies}      
 nodemon valid.js  
 
