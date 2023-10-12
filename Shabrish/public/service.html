@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shabarish Printing Press</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="imagess/logo.jpeg" alt="Logo" class="logo-img">
+      <h1 class="company-name">Shabarish Printing Press</h1>
+    </div>
+    <ul class="navbar-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about-section">About Us</a></li>
+      <li><a href="#services-section">Services</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="service-prices">
+    <div class="content">
+      <h2>Service Prices</h2>
+      <div class="service-grid">
+        <div class="service">
+          <img src="imagess/businessCard.jpg" alt="Service 1">
+          <h3>Business Cards</h3>
+          <p>Price Range:Rs 3-10/card</p>
+        </div>
+        <div class="service">
+          <img src="imagess/calender.jpg" alt="Service 2">
+          <h3>Calendars</h3>
+          <p>Price Range:Rs 20-100/calender</p>
+        </div>
+        <div class="service">
+          <img src="imagess/Poster.jpg" alt="Service 3">
+          <h3>Posters</h3>
+          <p>Price Range:Rs 30-100/poster</p>
+        </div>
+        <div class="service">
+            <img src="imagess/wedding.jpg" alt="Service 4">
+            <h3>Wedding Cards</h3>
+            <p>Price Range:Rs 30-300/card</p>
+          </div>
+          <div class="service">
+            <img src="imagess/books.jpg" alt="Service 5">
+            <h3>Books</h3>
+            <p>Price Range:Rs 50-300/book</p>
+          </div>
+          <div class="service">
+            <img src="imagess/broucher.jpg" alt="Service 6">
+            <h3>Brouchers</h3>
+            <p>Price Range:Rs 50-300/broucher</p>
+          </div>
+        <!-- Add more service sections as needed -->
+        </div>
+    </div>
+  </section>
+  <section class="contact-section">
+    <div class="contact-info">
+      <div class="contact-details">
+        <h3>Contact Information</h3>
+        <p><strong>Phone:</strong> +91 9848084832</p>
+        <p><strong>Email:</strong> shabarishoffsetprinters@gmail.com</p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/narendramodi/">shabarishoffsetprinters@01</a></p>
+        <p><strong>Address:</strong> <a href="https://goo.gl/maps/zkL4WcJuuesrdqaq5">Malur,563130</a></p>
+      </div>
+    </div>
+    <!-- <div class="contact-form">
+      <h3>Contact Us</h3> -->
+      <!-- <form id="contactForm" method="POST" action="/contact">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form> -->
+      <section id="contact">
+        <div class="content">
+          <h3>Contact Us</h3>
+          <form action="/send-email" method="POST" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="file" name="attachment">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      
+    </div>
+  </section>
+  
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <h3>About Shabarish Printing Press</h3>
+        <p>
+          Shabarish Printing Press is a leading printing and packaging company, providing high-quality printing solutions for businesses of all sizes. With state-of-the-art equipment and a dedicated team of professionals, we offer a wide range of printing services, including offset printing, digital printing, packaging design, and more.
+        </p>
+      </div>
+      <div class="footer-right">
+        <h3>Contact Information</h3>
+        <ul class="contact-info">
+          <li><i class="fa fa-map-marker"></i> Malur,563130</li>
+          <li><i class="fa fa-phone"></i> +91 9848084832</li>
+          <li><i class="fa fa-envelope"></i> shabarishoffsetprinters@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2010 Shabarish Printing Press. All rights reserved.</a></p>
+    </div>
+   </footer>
+</body>
+
+</html>
